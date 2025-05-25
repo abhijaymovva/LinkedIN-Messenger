@@ -46,8 +46,9 @@ SESSION_SECRET=your_session_secret
    - Go to [LinkedIn Developer Portal](https://www.linkedin.com/developers/)
    - Create a new application
    - Add the following OAuth 2.0 scopes:
-     - `r_liteprofile`
-     - `r_emailaddress`
+     - `openid`
+     - `email`
+     - `profile`
    - Set the callback URL to match your `LINKEDIN_CALLBACK_URL`
    - Copy the Client ID and Client Secret to your `.env` file
 
